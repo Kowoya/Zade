@@ -1,0 +1,153 @@
+:root {
+  --colour-light: #f9f9fb;
+  --colour-dark: #101010;
+}
+
+/* Header */
+.bgc {
+  background-color: var(--colour-light);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.header-link {
+  color: var(--colour-dark);
+}
+
+.header-link:hover {
+  color: #3d3d3d;
+}
+
+/* main */
+.main {
+  background-color: var(--colour-light);
+}
+
+body {
+  color: var(--colour-dark);
+  font-family: 'DM Sans', serif;
+}
+
+.pic {
+  width: 336px;
+  height: 516px;
+  flex-shrink: 0;
+  border-radius: 212.5px 30px 258px 30px;
+}
+
+.pic-primary {
+  width: 170px;
+  height: 62px;
+  flex-shrink: 0;
+  border-radius: 104px;
+}
+
+.pic-secondery {
+  width: 100px;
+  height: 62px;
+  flex-shrink: 0;
+  border-radius: 87px;
+}
+
+.hero-title {
+  color: var(--colour-dark);
+  font-family: 'DM Sans', serif;
+}
+
+.text1 {
+  font-family: Inria Serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.text2 {
+  font-family: Inria Serif;
+  font-size: 38px;
+  font-style: medium;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.products {
+  color: var(--colour-dark);
+}
+
+/* Section sales */
+.sales {
+  color: var(--colour-dark);
+  background-color: var(--colour-light);
+}
+
+.text3 {
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* third-section */
+.third-section {
+  background-color: var(--colour-light);
+}
+
+.button2 {
+  border: 1.5px solid var(--colour-dark);
+  background-color: white;
+  width: 270px;
+  height: 47px;
+  flex-shrink: 0;
+  border-radius: 31px;
+}
+
+.cost {
+  color: var(--colour-dark);
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.text4 {
+  font-family: Inria Serif;
+  font-size: 28px;
+  font-style: medium;
+  font-weight: 300;
+  line-height: normal;
+}
+/* font-family: Inria Serif;
+  font-size: 14px;
+  font-style: bold;
+  font-weight: 540;
+  line-height: normal; */
+
+.button {
+  border: 1.5px solid var(--colour-dark);
+  width: 170px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 104px;
+  background-color: var(--colour-light);
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #dcd4c6;
+}
+
+.button:focus {
+  background-color: #f0c879;
+}
+
+.picfooter {
+  width: 270px;
+  height: 420px;
+  flex-shrink: 0;
+  border-radius: 135px;
+  border: 1px solid var(--colour-dark);
+}
